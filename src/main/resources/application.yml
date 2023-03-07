@@ -1,0 +1,19 @@
+server:
+  port: 8088
+
+logging:
+  level:
+    root: INFO
+---
+
+# Add local properties here
+
+spring:
+  profiles: local
+
+server:
+  port: 8081
+
+
+
+
